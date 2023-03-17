@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+    
+}
+
+body {
+    padding-top: 3rem;
+    height: 100vh;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    position: relative;
+}
+
+hr {
+    width: 500px;
+}
+
+#errors {
+    color: coral;
+    /* position: fixed;
+    left: 50%;
+    top: 17%; */
+    width: 2rem;
+    border-radius: 50%;
+    margin: 0 auto;
+    
+}
+
+.how-to-play {
+    margin: 200px;
+    color: rgb(118, 114, 114);
+    font-size: 1.6rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.how-to-play:hover {
+    color:black;
+    font-size: 1.7rem;
+}
+
+#board {
+    width: 450px;
+    height: 400px;
+    /* each tile will be 50 x 50px */
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 3rem;
+    margin-top: 2rem;
+}
+
+.tile {
+    width: 48px;
+    height: 48px;
+    border: 1px solid lightgray;
+    /* text */
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#digits {
+    width: 480px;
+    height: 50px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 3rem;
+}
+
+.number {
+    width: 44px;
+    height: 44px;
+    border: 1px solid grey;
+    /* text */
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2px;
+}
+
+.number-selected {
+    background-color: rgb(167, 221, 237);
+}
+
+.tile-start {
+    background-color: rgb(238, 240, 240);
+}
+
+.horizontal-line {
+    border-bottom: 1px solid black;
+
+}
+
+.vertical-line {
+    border-right: 1px solid black;
+
+}
+
+
+
+#timeLeft {
+    background-color: rgb(198, 194, 194);
+    width:10rem;
+    color: white;
+    font-size: 1.5rem;
+    margin: 10px  auto;
+    padding: 3px;
+}
